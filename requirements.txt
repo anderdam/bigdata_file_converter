@@ -1,3 +1,4 @@
 pyspark
 feather-format
 delta-spark
+setuptools

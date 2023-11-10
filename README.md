@@ -21,10 +21,6 @@ Install the package with pip install bigdata-file-converter and import functions
 - CSV
 - JSON
 - Parquet
-- Avro
-- ORC
-- RCFile
-- SequenceFile
 
 **More formats will be added over time based on demand. Contributions welcome!**
 

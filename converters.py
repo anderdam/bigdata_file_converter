@@ -42,7 +42,7 @@ def file_converter(
 
     try:
         # Write DataFrame to Parquet forma
-        df.write.format(to_format.lower()).save(output_file)
+        df.write.format(to_format.lower()).save(output_file, mode="overwrite")
         print(
             f"Success!\nParquet file {filename} written to {output_file}, size: {os.path.getsize(output_file)} bytes"
         )
